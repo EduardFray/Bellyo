@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(251, 77, 103);
+    width: 100%;
+    height: 100px;   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    >h1 {
+        color: white;
+        padding-left: 24px;
+    }
+
+    >mat-icon {
+        color: white;
+        padding-right: 24px;
+
+        &:hover {
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+}
