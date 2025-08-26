@@ -7,8 +7,9 @@ import { SidenavComponent } from "./sidenav/sidenav.component";
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, SidenavComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'bellyo';
+  
 }
