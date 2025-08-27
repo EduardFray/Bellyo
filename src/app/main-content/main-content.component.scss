@@ -1,0 +1,12 @@
+main {
+    width: calc(100% - 250px);
+    height: 100vh;
+    position: absolute;
+    top: 100px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

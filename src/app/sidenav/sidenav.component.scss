@@ -10,5 +10,9 @@ aside {
     flex-direction: column;
     align-items: center;
     border-left: 1px solid rgba(0, 0, 0, 0.18);
-    
+    z-index: 2;
+}
+
+.aside-content {
+    padding-top: 100px;
 }

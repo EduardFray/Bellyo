@@ -1,0 +1,38 @@
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-icon {
+   color: black;
+}
+
+.error-container {
+    display: flex;
+    align-items: center;
+
+    >p {
+        cursor: pointer;
+        &:hover {
+            color: rgba(0, 0, 0, 0.7);
+        }
+    }
+
+    .error-icon {
+        margin-right: 8px;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(1.7);
+        }
+    }
+}
